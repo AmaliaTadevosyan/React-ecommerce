@@ -1,0 +1,58 @@
+.second-container {
+  margin: 50px 145px;
+}
+
+.second-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-heading h2 {
+  font-size: 36px;
+  line-height: 42px;
+  color: #780202;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+.second-heading p {
+  text-align: center;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #000;
+  margin: 30px 400px;
+}
+.departments {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+}
+
+.block h3 {
+  background: none;
+  border: none;
+  font-size: 35px;
+  text-align: center;
+  color: #000;
+  margin: 30px 0;
+  position: relative;
+}
+
+.block h3::after {
+  content: "";
+  width: 80px;
+  height: 2px;
+  background-color: #780202;
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}

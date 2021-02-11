@@ -1,0 +1,26 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #eee;
+  padding: 30px 0 130px;
+  margin-top: 250px;
+}
+
+footer ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  color: #000;
+  cursor: pointer;
+}
+
+footer ul li a:hover {
+  color: #780202;
+}

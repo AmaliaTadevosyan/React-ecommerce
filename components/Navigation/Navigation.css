@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 135px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 24px;
+  padding: 30px 20px;
+  display: block;
+  color: #000;
+}
+
+.nav-link:hover {
+  color: #780202;
+}
